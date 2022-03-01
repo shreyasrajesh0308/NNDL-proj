@@ -1,5 +1,4 @@
-#
-NNDL-project
+# NNDL-project
 
 Authors : Shreyas, Sid, Paul, Nithin. 
 
