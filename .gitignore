@@ -1,2 +1,2 @@
 # Ignore DS_State file 
-.DS_Store
+*.DS_Store
