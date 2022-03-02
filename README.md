@@ -14,3 +14,9 @@ The following experiments are underway:
 1. (Baseline) CNN model: Model as in [paper](https://arxiv.org/abs/1611.06455). A keras implementation can be found [here](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/). Test Accuracy: 0.46000000834465027
 
 
+**Random Papers on using Deep Learning for EEG**
+Autoencoders
+1. [Multi-Person Brain Activity Recognition via Comprehensive EEG Signal Analysis](https://arxiv.org/abs/1709.09077)
+2. [Deep Learning of Multifractal Attributes from Motor Imagery Induced EEG](https://link.springer.com/chapter/10.1007/978-3-319-12637-1_63)
+
+
