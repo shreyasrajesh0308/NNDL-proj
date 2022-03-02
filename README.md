@@ -43,3 +43,19 @@ Overall Notes - Seems like most of the networks that just use FC nets have some 
 1. [BENDR: Using Transformers and a Contrastive Self-Supervised Learning Task to Learn From Massive Amounts of EEG Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8261053/): pretrains on some massive EEG datasets (MMI, BCIC, ERN, SSC, P300) and then finetunes for tasks (note this paper does not focus on MI). Uses bert inspired architecture (specifically mimics wav2vec2.0 as the paper focuses on speech extraction from EEG), with CTC loss and contrastive learning.
 2. [EEG Classification with Transformer-Based Models](https://ieeexplore.ieee.org/abstract/document/9391844) - most relevant transformer model for our use case? Uses a couple of different transformer models (both spatial (across different electrodes) and temporal) as well different positional embeddings and compares performace. However I think it needs a large dataset to be effective, but can definitely run this as one of the models if we have time for some bonus marks for creativity
 
+*GAN*
+1. [Combining generative adversarial networks and multi-output CNN for motor imagery classification](https://iopscience.iop.org/article/10.1088/1741-2552/abecc5/meta)
+2. [MIEEG-GAN: Generating Artificial Motor Imagery Electroencephalography Signals](https://ieeexplore.ieee.org/abstract/document/9206942)
+
+*Data Augmentation*
+1. [Data Augmentation for Motor Imagery Signal Classification Based on a Hybrid Neural Network](https://www.mdpi.com/1424-8220/20/16/4485)
+2. [Conditional Adversarial Domain Adaptation Neural Network for Motor Imagery EEG Decoding](https://www.mdpi.com/1099-4300/22/1/96)
+3. [Dynamic Joint Domain Adaptation Network for Motor Imagery Classification](https://ieeexplore.ieee.org/abstract/document/9354668)
+4. [Priming Cross-Session Motor Imagery Classification with A Universal Deep Domain Adaptation Framework](https://arxiv.org/abs/2202.09559)
+5. [Classify Motor Imagery by a Novel CNN with Data Augmentation](https://ieeexplore.ieee.org/abstract/document/9176361)
+6. [Data augmentation for deep-learning-based electroencephalography](https://www.sciencedirect.com/science/article/pii/S0165027020303083)
+7. [A Novel Deep Learning Approach With Data Augmentation to Classify Motor Imagery Signals](https://ieeexplore.ieee.org/abstract/document/8630915)
+8. [Data augmentation for self-paced motor imagery classification with C-LSTM](https://iopscience.iop.org/article/10.1088/1741-2552/ab57c0/meta)
+
+
+
