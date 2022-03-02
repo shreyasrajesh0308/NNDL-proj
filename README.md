@@ -17,6 +17,9 @@ The following experiments are underway:
 
 **Literature Review**:
 
+*Overview*
+[Deep learning techniques for classification of electroencephalogram (EEG) motor imagery (MI) signals: a review](https://link.springer.com/article/10.1007/s00521-021-06352-5)
+
 *Autoencoders*
 1. [Multi-Person Brain Activity Recognition via Comprehensive EEG Signal Analysis](https://arxiv.org/abs/1709.09077)
 2. [Deep Learning of Multifractal Attributes from Motor Imagery Induced EEG](https://link.springer.com/chapter/10.1007/978-3-319-12637-1_63)
