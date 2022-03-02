@@ -11,7 +11,7 @@ Authors : Shreyas, Sid, Paul, Nithin.
 
 The following experiments are underway:
 
-1. (Baseline) CNN model: Model as in [paper](https://arxiv.org/abs/1611.06455). A keras implementation can be found [here](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/). Test Accuracy: 0.46000000834465027
+1. (Baseline) CNN model: Model as in [paper](https://arxiv.org/abs/1611.06455). A keras implementation can be found [here](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/). **Test Accuracy: 0.46000000834465027**
 
 
 
