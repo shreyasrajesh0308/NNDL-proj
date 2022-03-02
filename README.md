@@ -33,3 +33,8 @@ The following experiments are underway:
 2. [Automated classification of L/R hand movement EEG signals using advanced feature extraction and machine learning](https://arxiv.org/pdf/1312.2877.pdf): Data preprocessing - MATLAB toolbox for filtering, Automatic Artifact Removal, Epoch Extraction and ICA. Basic comparison between performance of nn vs svm. Can potentialy maybe incorporate Epoch Extraction for preprocessing.
 3. [The effects of pre-filtering and individualizing components for electroencephalography neural network classification](https://ieeexplore.ieee.org/document/7925289): data preprocessing - butterworth filter followed by ICA. Uses basic NN architecture.
 
+
+
+*Transformers*
+1. [BENDR: Using Transformers and a Contrastive Self-Supervised Learning Task to Learn From Massive Amounts of EEG Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8261053/): pretrains of some massive EEG datasets (MMI, BCIC, ERN, SSC, P300) and then fintunes for tasks (not this paper does not focus on MI). Uses bert inspired architecture (specifically mimics wav2vec2.0 as the paper focuses on speech extraction from EEG), with CTC loss and contrastive learning.
+
