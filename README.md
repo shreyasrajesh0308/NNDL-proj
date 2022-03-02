@@ -15,7 +15,7 @@ The following experiments are underway:
 
 
 
-**Random Papers on using Deep Learning for EEG**:
+**Literature Review**:
 
 *Autoencoders*
 1. [Multi-Person Brain Activity Recognition via Comprehensive EEG Signal Analysis](https://arxiv.org/abs/1709.09077)
@@ -23,13 +23,13 @@ The following experiments are underway:
 
 
 *RNN*
-1. [Cascade and Parallel Convolutional Recurrent Neural Networks on EEG-based Intention Recognition for Brain Computer Interface](https://arxiv.org/abs/1708.06578)
+1. [Cascade and Parallel Convolutional Recurrent Neural Networks on EEG-based Intention Recognition for Brain Computer Interface](https://arxiv.org/abs/1708.06578) - Personally think this is the most promising model. Has two different implementations of an LSTM based RNN (Cascade and Parallel config). Also compare output with 1D,2D and 3D conv baselines.
 
 *Deep Belief Networks*
 1. [A Deep Learning Method for Classification of EEG Data Based on Motor Imagery](https://link.springer.com/chapter/10.1007/978-3-319-09330-7_25)
 
-*Fully Connected*
-1. [Deep learning for hybrid EEG-fNIRS brain–computer interface: application to motor imagery classification](https://iopscience.iop.org/article/10.1088/1741-2552/aaaf82)
-2. [Automated classification of L/R hand movement EEG signals using advanced feature extraction and machine learning](https://arxiv.org/pdf/1312.2877.pdf) - this focuses more on data preprocessing and less on the actual nn structure. Basic comparison between performance of nn vs svm.
-3. 
+*Preprocessing + Fully Connected*
+1. [Deep learning for hybrid EEG-fNIRS brain–computer interface: application to motor imagery classification](https://iopscience.iop.org/article/10.1088/1741-2552/aaaf82) - uses NN with 4 hidden layers. Accept eeg as input, along with some other signals. Can potentialy use to discover best activation functions + initial choice of hyperparameters
+2. [Automated classification of L/R hand movement EEG signals using advanced feature extraction and machine learning](https://arxiv.org/pdf/1312.2877.pdf): Data preprocessing - MATLAB toolbox for filtering, Automatic Artifact Removal, Epoch Extraction and ICA. Basic comparison between performance of nn vs svm. Can potentialy maybe incorporate Epoch Extraction for preprocessing.
+3. [The effects of pre-filtering and individualizing components for electroencephalography neural network classification](https://ieeexplore.ieee.org/document/7925289): data preprocessing - butterworth filter followed by ICA. Uses basic NN architecture.
 
