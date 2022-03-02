@@ -40,4 +40,5 @@ The following experiments are underway:
 
 *Transformers*
 1. [BENDR: Using Transformers and a Contrastive Self-Supervised Learning Task to Learn From Massive Amounts of EEG Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8261053/): pretrains on some massive EEG datasets (MMI, BCIC, ERN, SSC, P300) and then finetunes for tasks (note this paper does not focus on MI). Uses bert inspired architecture (specifically mimics wav2vec2.0 as the paper focuses on speech extraction from EEG), with CTC loss and contrastive learning.
+2. [EEG Classification with Transformer-Based Models](https://ieeexplore.ieee.org/abstract/document/9391844) - most relevant transformer model for our use case? Uses a couple of different transformer models (both spatial (across different electrodes) and temporal) as well different positional embeddings and compares performace. However I think it needs a large dataset to be effective, but can definitely run this as one of the models if we have time for some bonus marks for creativity
 
