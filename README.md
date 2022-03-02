@@ -17,8 +17,9 @@ The following experiments are underway:
 
 **Literature Review**:
 
-*Overview*
+*Overview*:
 [Deep learning techniques for classification of electroencephalogram (EEG) motor imagery (MI) signals: a review](https://link.springer.com/article/10.1007/s00521-021-06352-5)
+Overall Notes - Seems like most of the networks that just use FC nets have some method to perform data preprocessing before feeding into the NN. I don't think this is within the scope of the project, so I think we can skip most of them. Further most of them just use a toolbox in MATLAB for the preprocessing. The only preprocessing technique we should *maybe* look at incorporating is Epoch Extraction.
 
 *Autoencoders*
 1. [Multi-Person Brain Activity Recognition via Comprehensive EEG Signal Analysis](https://arxiv.org/abs/1709.09077)
