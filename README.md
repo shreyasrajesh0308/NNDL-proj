@@ -12,7 +12,10 @@ Authors : Shreyas, Sid, Paul, Nithin.
 The following experiments are underway:
 
 1. (Baseline) CNN model: Model as in [paper](https://arxiv.org/abs/1611.06455). A keras implementation can be found [here](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/). **Test Accuracy: 0.46000000834465027**
-2. LSTM Model: Simple LSTM model fit on data. Article [here](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff). **Test Accuracy: 0.2199999988079071**
+2. **LSTM Model**: Simple LSTM model fit on data. Article [here](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff). 
+  a. 1 Hidden LSTM layer with 128 neurons: **Test Accuracy: 0.2199999988079071**
+  b. 1 Hidden LSTM layer with 32 neurons:  **Test Accuracy: 0.2800000011920929**
+  
 
 
 
