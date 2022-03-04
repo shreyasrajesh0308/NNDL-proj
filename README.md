@@ -15,6 +15,7 @@ The following experiments are underway:
 2. **LSTM Model**: Simple LSTM model fit on data. Article [here](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff). 
   a. 1 Hidden LSTM layer with 128 neurons: **Test Accuracy: 0.2199999988079071**
   b. 1 Hidden LSTM layer with 32 neurons:  **Test Accuracy: 0.2800000011920929**
+3. **GRU Model** Currently optimising for multiple parameters such as neurons in GRU layer, neurons in dense layer, batch_size, dropout rate and num of epochs. Best performance so far: Val accuracy - 0.46 Test Accuracy - 0.345
   
 
 
