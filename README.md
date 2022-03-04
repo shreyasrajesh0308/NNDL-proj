@@ -16,8 +16,8 @@ The following experiments are underway:
   a. 1 Hidden LSTM layer with 128 neurons: **Test Accuracy: 0.2199999988079071**
   b. 1 Hidden LSTM layer with 32 neurons:  **Test Accuracy: 0.2800000011920929**
 3. **GRU Model** Currently optimising for multiple parameters such as neurons in GRU layer, neurons in dense layer, batch_size, dropout rate, weight initialisations and num of epochs. Best parameters - 64 neurons in GRU layer, 4096x4096 in Dense, 16-batch size, 0.5 - dropout rate, 30 - epochs, HeNorm - init.
- a. Best performance for one subject - Val accuracy - 0.46 Test Accuracy - 0.345 
- b. Best performance for all subjects - Val accuracy - 0.41 Test Accuracy - 0.3634311556816101
+    a. Best performance for one subject - Val accuracy - 0.46 Test Accuracy - 0.345 
+    b. Best performance for all subjects - Val accuracy - 0.41 Test Accuracy - 0.3634311556816101
   
 
 
