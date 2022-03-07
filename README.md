@@ -34,7 +34,7 @@ The following experiments are underway:
 | GRU  |   | All Data | Subject 1 Data | 64 neurons in GRU layer, 4096x4096 in Dense.| 16-batch size, 0.5 - dropout rate, 30 - epochs, HeNorm - init. | 0.345
 | GRU  |   | All Data | All Data | 64 neurons in GRU layer, 4096x4096 in Dense.| 16-batch size, 0.5 - dropout rate, 30 - epochs, HeNorm - init.| 0.3634311556816101
 | Cascade RNN |   | All Data | All Data | As mentioned in Paper| No tuning yet| 0.41309255361557007
-| CNN + GRU |   | All Data | All Data | | No Tuning yet| 0.6659142374992371
+| CNN + GRU |   | All Data | All Data | | No Tuning yet| 0.7449209690093994
 
 **Literature Review**:
 
