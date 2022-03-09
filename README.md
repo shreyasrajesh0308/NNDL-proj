@@ -33,8 +33,8 @@ The following experiments are underway:
   LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | All Subject Data | All Subject Data | 1 Hidden LSTM layer- 32 neurons| No | |0.2686
 | GRU  |   | All Data | Subject 1 Data | 64 neurons in GRU layer, 4096x4096 in Dense.| No | 16-batch size, 0.5 - dropout rate, 30 - epochs, HeNorm - init. | 0.345
 | GRU  |   | All Data | All Data | 64 neurons in GRU layer, 4096x4096 in Dense.| No | 16-batch size, 0.5 - dropout rate, 30 - epochs, HeNorm - init.| 0.3634311556816101
-| Cascade RNN |   | All Data | All Data | As mentioned in Paper| No tuning yet| Yes | 0.6523702144622803
-| CNN + GRU |   | All Data | All Data | Yes | | No Tuning yet| 0.7449209690093994
+| Cascade RNN |   | All Data | All Data | As mentioned in Paper| Yes | No tuning yet | 0.6523702144622803
+| CNN + GRU |   | All Data | All Data | | Yes | No Tuning yet| 0.7449209690093994
 
 **Literature Review**:
 
