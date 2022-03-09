@@ -7,17 +7,6 @@ Authors : Shreyas, Sid, Paul, Nithin.
 1. Project Data contains parsed and cleaned data. 
 2. Check out the the Data and project python notebook for an overview of the project plan and some basic analysis of provided Data. 
 3. Please update the same notebook as and when there are any updates to the project. 
-
-
-The following experiments are underway:
-
-1. (Baseline) CNN model: Model as in [paper](https://arxiv.org/abs/1611.06455). A keras implementation can be found [here](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/). **Test Accuracy: 0.46000000834465027**
-2. **LSTM Model**: Simple LSTM model fit on data. Article [here](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff). 
-  a. 1 Hidden LSTM layer with 128 neurons: **Test Accuracy: 0.2199999988079071**
-  b. 1 Hidden LSTM layer with 32 neurons:  **Test Accuracy: 0.2800000011920929**
-3. **GRU Model** Currently optimising for multiple parameters such as neurons in GRU layer, neurons in dense layer, batch_size, dropout rate, weight initialisations and num of epochs. Best parameters - 64 neurons in GRU layer, 4096x4096 in Dense, 16-batch size, 0.5 - dropout rate, 30 - epochs, HeNorm - init.
-    **Best performance for one subject - Val accuracy - 0.46 Test Accuracy - 0.345**
-    **Best performance for all subjects - Val accuracy - 0.41 Test Accuracy - 0.3634311556816101**
   
 
 | Architecture  | Paper/Article Link | Train Data | Test Data | Model Chars |Data Preprocessing| HyperParams | Test Accuracy | 
