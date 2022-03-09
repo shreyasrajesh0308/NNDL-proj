@@ -20,21 +20,21 @@ The following experiments are underway:
     **Best performance for all subjects - Val accuracy - 0.41 Test Accuracy - 0.3634311556816101**
   
 
-| Architecture  | Paper/Article Link | Train Data | Test Data | Model Chars | HyperParams | Test Accuracy | 
+| Architecture  | Paper/Article Link | Train Data | Test Data | Model Chars |Data Preprocessing| HyperParams | Test Accuracy | 
 | ------------- | ------------- | ------------- | ------------- |------------- |------------- |------------- |
-| CNN  | [Keras Article](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/)  | Subject 1 Data | Subject 1 Data | 4 Layer 1D Conv | 32-batch size, 0.5 - dropout rate, 500 - epochs(early stopping) |0.46000000834465027
- CNN  | [Keras Article](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/)  | All Subject Data | Subject 1 Data | 4 Layer 1D Conv | 32-batch size, 0.5 - dropout rate, 500 - epochs(early stopping) |0.5600000023841858
-  CNN  | [Keras Article](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/)  | All Subject Data | All Subject Data | 4 Layer 1D Conv | 32-batch size, 0.5 - dropout rate, 500 - epochs(early stopping) |0.5417607426643372
-| LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | Subject 1 Data | Subject 1 Data | 1 Hidden LSTM layer- 128 neurons| |0.2199999988079071
- LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | All Subject Data | Subject 1 Data | 1 Hidden LSTM layer- 128 neurons| |0.2400
-  LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | All Subject Data | All Subject Data  | 1 Hidden LSTM layer- 128 neurons| | 0.2415
-| LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | Subject 1 Data | Subject 1 Data | 1 Hidden LSTM layer- 32 neurons| |0.2800000011920929
- LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | All Subject Data | Subject 1 Data | 1 Hidden LSTM layer- 32 neurons| |0.22
-  LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | All Subject Data | All Subject Data | 1 Hidden LSTM layer- 32 neurons| |0.2686
-| GRU  |   | All Data | Subject 1 Data | 64 neurons in GRU layer, 4096x4096 in Dense.| 16-batch size, 0.5 - dropout rate, 30 - epochs, HeNorm - init. | 0.345
-| GRU  |   | All Data | All Data | 64 neurons in GRU layer, 4096x4096 in Dense.| 16-batch size, 0.5 - dropout rate, 30 - epochs, HeNorm - init.| 0.3634311556816101
-| Cascade RNN |   | All Data | All Data | As mentioned in Paper| No tuning yet| 0.6523702144622803
-| CNN + GRU |   | All Data | All Data | | No Tuning yet| 0.7449209690093994
+| CNN  | [Keras Article](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/)  | Subject 1 Data | Subject 1 Data | 4 Layer 1D Conv | No| 32-batch size, 0.5 - dropout rate, 500 - epochs(early stopping) |0.46000000834465027
+ CNN  | [Keras Article](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/)  | All Subject Data | Subject 1 Data | 4 Layer 1D Conv |No| 32-batch size, 0.5 - dropout rate, 500 - epochs(early stopping) |0.5600000023841858
+  CNN  | [Keras Article](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/)  | All Subject Data | All Subject Data | 4 Layer 1D Conv | No | 32-batch size, 0.5 - dropout rate, 500 - epochs(early stopping) |0.5417607426643372
+| LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | Subject 1 Data | Subject 1 Data | 1 Hidden LSTM layer- 128 neurons| No | |0.2199999988079071
+ LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | All Subject Data | Subject 1 Data | 1 Hidden LSTM layer- 128 neurons| No | |0.2400
+  LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | All Subject Data | All Subject Data  | 1 Hidden LSTM layer- 128 neurons| No | | 0.2415
+| LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | Subject 1 Data | Subject 1 Data | 1 Hidden LSTM layer- 32 neurons| No | |0.2800000011920929
+ LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | All Subject Data | Subject 1 Data | 1 Hidden LSTM layer- 32 neurons| No | |0.22
+  LSTM  | [Keras Article](https://towardsdatascience.com/time-series-classification-for-human-activity-recognition-with-lstms-using-tensorflow-2-and-keras-b816431afdff)  | All Subject Data | All Subject Data | 1 Hidden LSTM layer- 32 neurons| No | |0.2686
+| GRU  |   | All Data | Subject 1 Data | 64 neurons in GRU layer, 4096x4096 in Dense.| No | 16-batch size, 0.5 - dropout rate, 30 - epochs, HeNorm - init. | 0.345
+| GRU  |   | All Data | All Data | 64 neurons in GRU layer, 4096x4096 in Dense.| No | 16-batch size, 0.5 - dropout rate, 30 - epochs, HeNorm - init.| 0.3634311556816101
+| Cascade RNN |   | All Data | All Data | As mentioned in Paper| No tuning yet| Yes | 0.6523702144622803
+| CNN + GRU |   | All Data | All Data | Yes | | No Tuning yet| 0.7449209690093994
 
 **Literature Review**:
 
