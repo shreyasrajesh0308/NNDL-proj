@@ -21,7 +21,7 @@ The following experiments are underway:
   
 
 | Architecture  | Paper/Article Link | Train Data | Test Data | Model Chars |Data Preprocessing| HyperParams | Test Accuracy | 
-| ------------- | ------------- | ------------- | ------------- |------------- |------------- |------------- |
+| ------------- | ------------- | ------------- | ------------- |------------- |------------- |-------------|------------- |
 | CNN  | [Keras Article](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/)  | Subject 1 Data | Subject 1 Data | 4 Layer 1D Conv | No| 32-batch size, 0.5 - dropout rate, 500 - epochs(early stopping) |0.46000000834465027
  CNN  | [Keras Article](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/)  | All Subject Data | Subject 1 Data | 4 Layer 1D Conv |No| 32-batch size, 0.5 - dropout rate, 500 - epochs(early stopping) |0.5600000023841858
   CNN  | [Keras Article](https://keras.io/examples/timeseries/timeseries_classification_from_scratch/)  | All Subject Data | All Subject Data | 4 Layer 1D Conv | No | 32-batch size, 0.5 - dropout rate, 500 - epochs(early stopping) |0.5417607426643372
