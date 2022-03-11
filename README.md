@@ -26,6 +26,7 @@ Authors : Shreyas, Sid, Paul, Nithin.
 | Cascade RNN |   | All Data | All Data | As mentioned in Paper| Yes | No tuning yet | 0.6523702144622803
 | CNN + GRU |   | All Data | All Data | | Yes | No Tuning yet| 0.7449209690093994
 | CNN + LSTM |   | All Data | All Data | | Yes | No Tuning yet| 0.6591
+| Space Conv |   | All Data | All Data | | Yes | No Tuning yet| 0.7697516679763794
 
 **Literature Review**:
 
