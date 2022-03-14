@@ -24,7 +24,7 @@ Authors : Shreyas, Sid, Paul, Nithin.
 | GRU  |   | All Data | Subject 1 Data | 64 neurons in GRU layer, 4096x4096 in Dense.| No | 16-batch size, 0.5 - dropout rate, 30 - epochs, HeNorm - init. | 0.345
 | GRU  |   | All Data | All Data | 64 neurons in GRU layer, 4096x4096 in Dense.| No | 16-batch size, 0.5 - dropout rate, 30 - epochs, HeNorm - init.| 0.3634311556816101
 | Cascade RNN |   | All Data | All Data | As mentioned in Paper| Yes | No tuning yet | 0.6523702144622803
-| CNN + GRU |   | All Data | All Data | | Yes | No Tuning yet| 0.7449209690093994
+| CNN + GRU |   | All Data | All Data | | Yes | No Tuning yet| 0.749
 | CNN + LSTM |   | All Data | All Data | | Yes | No Tuning yet| 0.6727
 | Space Conv |   | All Data | All Data | | Yes | No Tuning yet| 0.7697516679763794
 
@@ -72,3 +72,21 @@ Overall Notes - Seems like most of the networks that just use FC nets have some 
 
 
 
+| Architecture  | Train Data | Test Data | Test Accuracy | 
+| ------------- | ------------- | ------------- | ------------- |
+| CNN  | Subject 1 Data | Subject 1 Data  |0.46000000834465027
+| CNN  | All Subject Data | Subject 1 Data | 0.5600000023841858
+| CNN  | All Subject Data | All Subject Data |0.5417607426643372
+| CNN  | All Subject Data | All Subject Data |0.56207674741745
+| LSTM  | Subject 1 Data | Subject 1 Data |0.2199999988079071
+| LSTM  | All Subject Data | Subject 1 Data  |0.2400
+| LSTM  | All Subject Data | All Subject Data  | 0.2415
+| LSTM  | Subject 1 Data | Subject 1 Data |0.2800000011920929
+| LSTM  | All Subject Data | Subject 1 Data  |0.22
+| LSTM  | All Subject Data | All Subject Data |0.2686
+| GRU   | All Subject Data | Subject 1 Data | 0.345
+| GRU   | All Subject Data | All Subject Data | 0.3634311556816101
+| Cascade RNN | All Subject Data | All Subject Data | 0.6523702144622803
+| CNN + GRU   | All Subject Data | All Subject Data | 0.749
+| CNN + LSTM  | All Subject Data | All Subject Data | 0.6727
+| Space Conv  | All Subject Data | All Subject Data | 0.7697516679763794
